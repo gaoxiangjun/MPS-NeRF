@@ -1,0 +1,65 @@
+with_viewdirs = 0
+border = 5
+random_pair = 1
+use_f2d = 1
+use_trans = 1
+
+N_samples = 128
+N_iteration = 120100
+decay_steps = 30000
+i_test = 6000
+i_print = 120
+i_weights = 24000
+N_rand = 1000
+chunk = 12000
+use_os_env = 0
+
+human_sample = 1
+smooth_loss = 1
+smooth_interval = 4
+correction_loss = 0
+correction_field = 0
+occupancy = 0
+acc_loss = 1
+density_loss = 0
+consistency_loss = 0
+T_loss = 0
+half_acc = 0
+skinning_field = 0
+append_rgb = 1
+ddp = 0
+
+model = skinning_batch
+mean_shape = 0
+batch_size = 2
+
+
+num_worker = 16
+train_split = train
+start = 0
+view_num = 3
+
+data_set_type = H36M_P
+
+
+basedir = ./logs
+use_viewdirs = True
+white_bkgd = False
+N_importance = 0
+image_scaling = 1.0
+
+
+save_weights = 1
+interval = 10
+poses_num = 100
+male = 0
+new_mask = 0
+num_instance = 6
+
+multi_person = 1
+test_num_instance = 1
+test_persons = 0
+data_root = ./data/H36M/S1/Posing
+expname = S1
+
+

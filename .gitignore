@@ -1,0 +1,8 @@
+__pycache__/
+*.tar
+*.obj
+*.pkl
+*.o
+*.ipynb
+*.vscode
+.DS_Store
