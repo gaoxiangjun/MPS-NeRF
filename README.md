@@ -70,7 +70,7 @@ CUDA_VISIBLE_DEVICES=0,1  python3 run_nerf_batch.py --config configs/h36m.txt --
 CUDA_VISIBLE_DEVICES=0,1  python3 run_nerf_batch.py --config configs/h36m.txt --view_num 3 --test_persons 1 --data_root ./data/h36m/S5/Posing --expname H36M_S5
 ```
 
-The training will start! THe evaluation will be done automatically once the training is finished.
+The training will start! The evaluation will be done automatically once the training is finished.
 
 The code will save the loss curves and evaluation results under `logs/expname`.
 
@@ -103,14 +103,24 @@ python3 render_thuman_mesh.py --config configs/canonical_transformer.txt --view_
 If you find the codes of this work or the associated ReSynth dataset helpful to your research, please consider citing:
 
 ```bibtex
+@ARTICLE{9888037,
+  author={Gao, Xiangjun and Yang, Jiaolong and Kim, Jongyoo and Peng, Sida and Liu, Zicheng and Tong, Xin},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={MPS-NeRF: Generalizable 3D Human Rendering From Multiview Images}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-12},
+  doi={10.1109/TPAMI.2022.3205910}}
+```
+<!--
 @article{gao2022mps,
   title={MPS-NeRF: Generalizable 3D Human Rendering from Multiview Images},
   author={Gao, Xiangjun and Yang, Jiaolong and Kim, Jongyoo and Peng, Sida and Liu, Zicheng and Tong, Xin},
   journal={arXiv preprint arXiv:2203.16875},
   year={2022}
 }
-```
-
+-->
 
 ## Recent Research on Generalizable Neural Human Rendering
 <!-- --- -->
