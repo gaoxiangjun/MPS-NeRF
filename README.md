@@ -31,12 +31,14 @@ Xiangjun Gao, Jiaolong Yang, Jongyoo Kim, Sida Peng, Zicheng Liu, and Xin Tong <
 
 #### THuman Dataset
 
-For generalizable NeRF training, we render multi-view images from THuman dataset, which is a 3D Human Dataset with both geometry and texture.
+For generalizable NeRF training, we render multi-view images from THuman dataset, which is a 3D Human Dataset with both geometry and texture. 
 
+[The dataset link](https://drive.google.com/file/d/1GRPgeMCAFlnk11jfqLMp0MjKJICYgzqf/view?usp=sharing).
+<!-- 
 THuman dataset is released in [DeepHuman](http://www.liuyebin.com/deephuman/deephuman.html) by TsingHua University. We are not allowed to publish or distribute the dataset in any form to any third party without Tsinghua University’s prior written permission.
 
 If you want to use the rendered images from THuman dataset, you may check this download [Instruction](https://github.com/ZhengZerong/DeepHuman/tree/master/THUmanDataset#download-instructions) of THuman dataset. Please fill in the application form and get permission from Prof. [Yebin Liu' Group](http://www.liuyebin.com/index.html). Then you may send me[(xiangjun_gao@outlook.com)](mailto:xiangjun_gao@outlook.com) an email with the agreement as an attachment or just forward their reply email to me. I will share with you the download link of our Thuman training set rendered from the THuman dataset.
-
+-->
 #### Human3.6M dataset
 
 Since the license of Human3.6M dataset does not allow us to distribute its data and the dataset is further processed by [animatable_nerf](https://github.com/zju3dv/animatable_nerf), we cannot release the Human3.6M dataset publicly. 
